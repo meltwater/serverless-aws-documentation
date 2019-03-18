@@ -22,7 +22,16 @@ describe('ServerlessAWSDocumentation', function () {
           stage: 'testStage',
           region: 'testRegion',
         }
-      }
+      },
+      variables: {
+        service: {
+          custom: {
+            documentation: {
+              version: '1'
+            },
+          }
+        }
+      },
     };
   });
 

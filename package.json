@@ -8,7 +8,6 @@
     "test": "istanbul cover -x \"src/index.spec.js\" jasmine ./src/index.spec.js ./src/documentation.spec.js ./src/models.spec.js ./src/downloadDocumentation.spec.js",
     "test:nocoverage": "jasmine ./src/index.spec.js"
   },
-  
   "repository": {
     "type": "git",
     "url": "git@github.com:@meltwater/serverless-aws-documentation.git"
