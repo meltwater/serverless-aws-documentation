@@ -62,6 +62,8 @@ Currently (August 2017) you'll have trouble with the `title` and `version` field
     version: "2017-08-23T07:59:29Z"
     title: dev-your-api-serverless
 
+**_Meltwater has added an additional argument `--fixVersion` that can be used to remidy the version issue. This additional argument will look at the value in either `custom.documentation.info.version` or `custom.documentation.api.verison` and use it to overwrite any version retrieved from the server. _**
+If there is a request to do the same with the title field, please open an issue. 
 ------
 Your general documentation has to be nested in the custom variables section and looks like this:
 
