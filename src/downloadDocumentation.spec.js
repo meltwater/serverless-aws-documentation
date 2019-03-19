@@ -27,7 +27,9 @@ describe('ServerlessAWSDocumentation', function () {
         service: {
           custom: {
             documentation: {
-              version: '1'
+              info : {
+                version: '1'
+              }
             },
           }
         }
